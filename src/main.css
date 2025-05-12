@@ -1,0 +1,60 @@
+:root {
+    --ThemeColor1: #ffffff;
+    --ThemeColor2: #131719;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--ThemeColor2);
+}
+a {
+    color: var(--ThemeColor2);
+    text-decoration: none;
+ }
+.navbar {
+    background-color: var(--ThemeColor1);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo > a{
+    display: flex;
+    align-items: center;
+}
+.logo > a > img {
+    width: 50px;
+}
+
+.search {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(41, 21, 21);
+    color: var(--ThemeColor1);
+}
+.searchBtn {
+    width: 60px;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+    font-size: .7rem;
+    background-color: rgb(85, 162, 244);
+    color: var(--ThemeColor1);
+}
+
+.links a{
+    width: 80px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: .7rem;
+    background-color: rgb(85, 162, 244);
+    color: var(--ThemeColor1);
+}

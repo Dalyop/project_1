@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="main.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
 <body>
     <header>
@@ -14,26 +15,29 @@
             <div class="logo">
                 <a href="index.html">
                     <img src="assets/images/logo.png" alt="A spiral logo">
-                    <span>Logo Name</span>
                 </a>
             </div>
             <div class="searchBar">
                 <form>
+                    <i style="font-size: 1.5rem; padding: 0 5px;" class="bx bx-search"></i>
                     <input class="search" type="text">
-                    <button class="searchBtn" type="submit">Search</button>
+                    <a class="powered" href="#">Powered by Algolia</a>
                 </form>
             </div>
             <div class="links">
-                <a href="pages/register.html">Register</a>
-                <a style="background-color: green;" href="pages/login.html">Login</a>
+                <a class="loginBtn" href="pages/login.html">Login</a>
+                <a class="signUpBtn" href="pages/register.html">Create Account</a>
             </div>
         </nav>
     </header>
-    <main>
-
+    <main class="main">
+        <div class="shadow"></div>
     </main>
-    <footer>
 
+    <footer>
+        <div>
+            <span>Copyright @ 2025</span>
+        </div>
     </footer>
 </body>
 
